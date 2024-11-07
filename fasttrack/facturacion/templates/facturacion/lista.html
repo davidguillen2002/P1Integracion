@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Facturas</title>
+</head>
+<body>
+    <h1>Lista de Facturas</h1>
+    <ul>
+        {% for factura in facturas %}
+            <li>Factura ID: {{ factura.id }} - Proveedor: {{ factura.proveedor.nombre }} - Monto: {{ factura.monto }} - Estado: {{ factura.estado }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

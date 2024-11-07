@@ -21,10 +21,18 @@ def generar_csv_facturas():
     print("Archivo CSV generado: facturas.csv")
 
     # Transferencia del archivo mediante SFTP
-    transferir_archivo_sftp('facturas.csv', 'C:/Users/david/Downloads/RebexTinySftpServer-Binaries-Latest/data', '172.31.86.56 ', 22, 'tester', 'password')
+    transferir_archivo_sftp(
+        'facturas.csv',
+        'data/facturas.csv',  # Ruta remota en el servidor SFTP (debe ser relativa al root del usuario SFTP)
+        '172.31.86.56',  # Dirección IP sin espacio extra
+        22,
+        'tester',
+        'password'
+    )
 
 
 def transferir_archivo_sftp(local_path, remote_path, hostname, port, username, password):
+    transport = None
     try:
         # Configuración de la conexión SFTP
         transport = paramiko.Transport((hostname, port))
@@ -38,4 +46,5 @@ def transferir_archivo_sftp(local_path, remote_path, hostname, port, username, p
     except Exception as e:
         print(f"Error en la transferencia SFTP: {e}")
     finally:
-        transport.close()
+        if transport:
+            transport.close()  # Asegúrate de cerrar transport solo si fue inicializado

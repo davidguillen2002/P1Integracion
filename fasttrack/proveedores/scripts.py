@@ -21,7 +21,7 @@ def generar_csv_facturas():
     print("Archivo CSV generado: facturas.csv")
 
     # Transferencia del archivo mediante SFTP
-    transferir_archivo_sftp('facturas.csv', '/ruta/remota/facturas.csv', 'sftp.servidor.com', 22, 'usuario', 'contraseña')
+    transferir_archivo_sftp('facturas.csv', 'C:/Users/david/Downloads/RebexTinySftpServer-Binaries-Latest/data', '172.31.86.56 ', 22, 'tester', 'password')
 
 
 def transferir_archivo_sftp(local_path, remote_path, hostname, port, username, password):

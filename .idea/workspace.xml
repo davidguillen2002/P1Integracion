@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a0c267e-f13d-4b49-8ea4-93f9a533a5eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fasttrack/facturacion/scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/fasttrack/facturacion/scripts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fasttrack/facturacion/templates/facturacion/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/fasttrack/facturacion/templates/facturacion/lista.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fasttrack/facturacion/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fasttrack/facturacion/urls.py" afterDir="false" />
+    <list default="true" id="3a0c267e-f13d-4b49-8ea4-93f9a533a5eb" name="Changes" comment="Transfer">
       <change beforePath="$PROJECT_DIR$/fasttrack/proveedores/scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/fasttrack/proveedores/scripts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fasttrack/proveedores/templates/proveedores/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/fasttrack/proveedores/templates/proveedores/lista.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fasttrack/proveedores/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fasttrack/proveedores/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +60,19 @@
       <option name="presentableId" value="Default" />
       <updated>1730938289492</updated>
     </task>
+    <task id="LOCAL-00001" summary="Transfer">
+      <option name="closed" value="true" />
+      <created>1730943239036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730943239036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Transfer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transfer" />
   </component>
 </project>

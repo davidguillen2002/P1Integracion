@@ -3,11 +3,11 @@ import paramiko
 from facturacion.models import Factura
 
 # Detalles del servidor SFTP
-SFTP_HOST = '172.31.86.56'
+SFTP_HOST = 'localhost'
 SFTP_PORT = 22
 SFTP_USER = 'tester'
 SFTP_PASS = 'password'
-SFTP_REMOTE_PATH = 'data/facturas.csv'  # Ruta en el servidor SFTP relativa al directorio raíz del usuario
+SFTP_REMOTE_PATH = 'facturas.csv'  # Ruta en el servidor SFTP relativa al directorio raíz del usuario
 
 def generar_csv_facturas():
     # Generación del archivo CSV
